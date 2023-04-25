@@ -25,7 +25,7 @@ app.use('/api/v1/users', userRoute)
 
 const PORT = process.env.PORT || 5000
 
-mongoose.connect(process.env.DB_URL,{
+mongoose.connect('mongodb+srv://nikhildontul143:jhTC3120GwOO8PTM@cluster0.gkzwzky.mongodb.net/?retryWrites=true&w=majority',{
     useNewUrlParser:true,
     useUnifiedTopology:true
     
