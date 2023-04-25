@@ -34,6 +34,5 @@ mongoose.connect(process.env.DB_URL,{
 })).catch((err)=>{console.log(err.message)});
 
 
-
-
+app.listen(process.env.PORT || 80, '0.0.0.0');
 
